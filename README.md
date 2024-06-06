@@ -1,7 +1,8 @@
 # Generative Wall Art with Apple Vision Pro
 A compact example project that demonstrates the core functionalities of visionOS, accompanied by a Youtube tutorial series where we code this example from scratch. 
 
-![Alt Text](resources/part2.gif)
+## Recording
+https://github.com/janviaroraa/WallArt/assets/68505024/d636c2b3-08b1-4e33-8542-a33283afd58e
 
 ### visionOS APIs Used
 

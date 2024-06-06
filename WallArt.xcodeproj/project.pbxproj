@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 56;
+	objectVersion = 60;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -14,11 +14,11 @@
 		122AA99F2C11A30B006E40EA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 122AA99E2C11A30B006E40EA /* Assets.xcassets */; };
 		122AA9A22C11A30B006E40EA /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 122AA9A12C11A30B006E40EA /* Preview Assets.xcassets */; };
 		122AA9AA2C11A5DE006E40EA /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 122AA9A92C11A5DE006E40EA /* ContentViewModel.swift */; };
+		122AA9AD2C11B04D006E40EA /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = 122AA9AC2C11B04D006E40EA /* RealityKitContent */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		122AA9912C11A309006E40EA /* WallArt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WallArt.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		122AA9952C11A309006E40EA /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
 		122AA9982C11A309006E40EA /* WallArtApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallArtApp.swift; sourceTree = "<group>"; };
 		122AA99A2C11A309006E40EA /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		122AA99C2C11A309006E40EA /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
@@ -33,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				122AA9AD2C11B04D006E40EA /* RealityKitContent in Frameworks */,
 				122AA9972C11A309006E40EA /* RealityKitContent in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -44,7 +45,6 @@
 			isa = PBXGroup;
 			children = (
 				122AA9932C11A309006E40EA /* WallArt */,
-				122AA9942C11A309006E40EA /* Packages */,
 				122AA9922C11A309006E40EA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -69,14 +69,6 @@
 				122AA9A02C11A30B006E40EA /* Preview Content */,
 			);
 			path = WallArt;
-			sourceTree = "<group>";
-		};
-		122AA9942C11A309006E40EA /* Packages */ = {
-			isa = PBXGroup;
-			children = (
-				122AA9952C11A309006E40EA /* RealityKitContent */,
-			);
-			path = Packages;
 			sourceTree = "<group>";
 		};
 		122AA9A02C11A30B006E40EA /* Preview Content */ = {
@@ -105,6 +97,7 @@
 			name = WallArt;
 			packageProductDependencies = (
 				122AA9962C11A309006E40EA /* RealityKitContent */,
+				122AA9AC2C11B04D006E40EA /* RealityKitContent */,
 			);
 			productName = WallArt;
 			productReference = 122AA9912C11A309006E40EA /* WallArt.app */;
@@ -134,6 +127,9 @@
 				Base,
 			);
 			mainGroup = 122AA9882C11A309006E40EA;
+			packageReferences = (
+				122AA9AB2C11B04D006E40EA /* XCLocalSwiftPackageReference "../../Downloads/GenerativeDoodleArt_VisionOS-main/Packages/RealityKitContent" */,
+			);
 			productRefGroup = 122AA9922C11A309006E40EA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -362,8 +358,19 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCLocalSwiftPackageReference section */
+		122AA9AB2C11B04D006E40EA /* XCLocalSwiftPackageReference "../../Downloads/GenerativeDoodleArt_VisionOS-main/Packages/RealityKitContent" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = "../../Downloads/GenerativeDoodleArt_VisionOS-main/Packages/RealityKitContent";
+		};
+/* End XCLocalSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		122AA9962C11A309006E40EA /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+		122AA9AC2C11B04D006E40EA /* RealityKitContent */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = RealityKitContent;
 		};
